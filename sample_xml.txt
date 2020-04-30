@@ -1,0 +1,1 @@
+08 May 2019 15:11:12 {"Result":"950","ResultExplanation":"Request missing mandatory fields \u2013 ServiceType In Services, Service number 2"} 

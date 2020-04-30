@@ -1,0 +1,153 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+}
+* {
+    box-sizing: border-box;
+}
+img{
+	display: block;
+	max-width: 100%;
+}
+iframe{
+	display: block;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+a{
+	display: inline-block;
+	text-decoration: none;
+	transition: all 0.9s ease;
+}
+.container{
+	width: 100%;
+	float: left;
+}
+
+.Latest_News{
+	width: 100%;
+	float: left;
+	padding: 0 1%;
+}
+.Latest_News h1{
+	width: 100%;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+}
+.Latest_News ul li {
+	background-color: #f7f7f7;
+width: 24.5%;
+float: left;
+margin: 0.25%;
+list-style: none;
+}
+.Latest_News ul{
+	float: left;
+	width: 100%;
+}
+.Latest_News ul li img{
+	width: 100%;
+}
+.content_wrapper{
+	padding: 30px;
+}
+.content_wrapper h4{
+	font-weight: 400;
+    font-size: 15px;
+    margin: 0;
+    color: #2c531d;
+    text-transform: uppercase;
+}
+.content_wrapper p{
+	font-size: 14px;
+line-height: 22px;
+padding: 15px 0;
+color: #5f5e5e;
+}
+.rde_more{
+	border: 1px solid #fcbf04;
+color: #2c531d;
+padding: 10px 20px;
+font-weight: 900;
+text-transform: uppercase;
+float: left;
+margin-bottom: 10px;
+font-size: 12px;
+}
+.rde_more:hover{
+	background-color: #2c531d;
+color: #ffffff;
+border: 1px solid #2c531d;
+}
+
+.share {
+	float: left;
+	width: 100%;
+}
+.share ul{
+	float: left;
+}
+.share ul li{
+	list-style: none;
+	float: left;
+}
+.share ul li a{
+    padding: 14px 14px;
+}
+.share ul li :last-child{
+	margin-right: 10px;
+}
+
+.single_wrapper{
+	width: 70%;
+	background: #fff;
+	padding: 54px 60px;
+	display: table-cell;
+	vertical-align: top;
+}
+.date{
+	color: #caa765;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+.media_single_wrapper{
+	width: 100%;
+	float: left;
+	display: table;
+}
+.single_wrapper h4{
+	font-family: 'Playfair Display', serif;
+	font-size: 26px;
+	letter-spacing: 2px;
+	margin: 0;
+	color: #2c531d;
+}
+.single_wrapper p {
+	font-size: 18px;
+    color: #999999;
+    line-height: 25px;
+}
+
+.blog-categories{width: 30%;display: table-cell;background-color: #f7f7f7;}
+
+.blog-categories h3{text-transform: uppercase;padding: 10px 20px 0 20px;font-size: 16px;color: #636363;border-bottom: 1px solid #e0e0e0;}
+
+.blog-categories ul{width: 100%;float: left;}
+
+.blog-categories ul li{width: 100%;float: left;list-style: none;}
+
+.blog-categories ul li a{width: 100%;}
+
+
+
+.blog-categories ul li a.active-category{
+	    background-color: #2c531d;
+			color: #ffffff;
+			border-bottom: 1px solid #2c531d;
+}
